@@ -36,7 +36,22 @@
 		  {% endif %}
 		  
 		  {% if include.type == "post" %}
-		  <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</span>
+                  <span style="float:left;">
+                    {% if page.paper %}
+                    <a href="{{ page.paper }}" style="padding-right:10px" target="_blank">
+                      <i class="fa fa-book"></i>
+                      Paper
+                    </a>
+                    {% endif %}
+
+                    {% if page.code %}
+                    <a href="{{ page.code }}" style="padding-right:10px" target="_blank">
+                      <i class="fa fa-github"></i>
+                      Code
+                    </a>
+                  </span>
+                  {% endif %}
+		  <span class="post-meta" style="float:right;">Posted on {{ page.date | date: "%B %-d, %Y" }}</span>
 		  {% endif %}
         </div>
       </div>
@@ -61,7 +76,22 @@
 		  {% endif %}
 		  
 		  {% if include.type == "post" %}
-		  <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}</span>
+                  <span style="float:left;">
+                    {% if page.paper %}
+                    <a href="{{ page.paper }}" style="padding-right:10px" target="_blank">
+                      <i class="fa fa-book"></i>
+                      Paper
+                    </a>
+                    {% endif %}
+
+                    {% if page.code %}
+                    <a href="{{ page.code }}" style="padding-right:10px" target="_blank">
+                      <i class="fa fa-github"></i>
+                      Code
+                    </a>
+                  {% endif %}
+                  </span>
+		  <span class="post-meta" style="float:right;">Posted on {{ page.date | date: "%B %-d, %Y" }}</span>
 		  {% endif %}
         </div>
       </div>

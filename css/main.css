@@ -105,6 +105,24 @@ img {
   margin-top: -25px;
 }
 
+.embed-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /* --- Navbar --- */
 
 .navbar-custom {
@@ -371,7 +389,7 @@ footer .theme-by {
   float: right;
   height: 192px;
   width: 192px;
-  margin-top: -35px;
+  margin-top: -5px;
   filter: grayscale(90%);
 }
 .post-image:hover {
