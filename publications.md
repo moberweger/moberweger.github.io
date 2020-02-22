@@ -4,6 +4,10 @@ title: Publications
 subtitle: What got published so far
 ---
 
+[HOnnotate - A method for 3D Annotation of Hand and Objects Poses]({% post_url 2000-01-14-hand-object-dataset %})  
+Shreyas Hampali, Mahdi Rad, **Markus Oberweger**, and Vincent Lepetit  
+arXiv:1907.01481, 2019
+
 [Generalized Feedback Loop for Joint Hand-Object Pose Estimation]({% post_url 2000-01-13-hand-object-pose %})  
 **Markus Oberweger**, Paul Wohlhart, and Vincent Lepetit  
 Trans. on Pattern Analysis and Machine Intelligence, 2019
