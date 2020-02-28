@@ -27,6 +27,7 @@ navbar-links:
   Resources:
     - Projects: "index"
     - Publications: "publications"
+    - Code@GitHub: "https://github.com/moberweger"
     - Google Scholar: "https://scholar.google.at/citations?user=cZ_5EYUAAAAJ&hl=de&oi=ao"
   About Me: "aboutme"
 

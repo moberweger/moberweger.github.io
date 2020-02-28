@@ -6,6 +6,10 @@ subtitle: What got published so far
 
 [HOnnotate - A method for 3D Annotation of Hand and Objects Poses]({% post_url 2000-01-14-hand-object-dataset %})  
 Shreyas Hampali, Mahdi Rad, **Markus Oberweger**, and Vincent Lepetit  
+In Proc. IEEE Conf. on Computer Vision and Pattern Recognition, 2020
+
+[HO-3D - A Multi-User, Multi-Object Dataset for Joint 3D Hand-Object Pose Estimation]({% post_url 2000-01-14-hand-object-dataset %})  
+Shreyas Hampali, **Markus Oberweger**, Mahdi Rad, and Vincent Lepetit  
 arXiv:1907.01481, 2019
 
 [Generalized Feedback Loop for Joint Hand-Object Pose Estimation]({% post_url 2000-01-13-hand-object-pose %})  

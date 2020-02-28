@@ -42,11 +42,10 @@ Qualitative results for single RGB frame based hand pose estimation method are s
 ## Citation
 
 ```
-@article{Hampali2019a,
+@inproceedings{Hampali2020,
   title = {HOnnotate - A method for 3D Annotation of Hand and Objects Poses},
   author = {S.~Hampali and M.~Rad and M.~Oberweger and V.~Lepetit},
-  journal = {arXiv e-prints},
-  year = {2019},
-  pages = {arXiv:1907.01481},
+  booktitle = {Proc.~of Computer Vision and Pattern Recognition},
+  year = {2020},
 }
 ```
